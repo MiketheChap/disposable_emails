@@ -12,7 +12,7 @@ variants on a name and a corresponding disposable email address at [mailinator.c
 You can then copy/paste email addresses into the required interface.
 
 The command to call this function takes this form:  
->new.addresses('firstname', 'lastname', '@mailinator.com', z)
+>fake.email('firstname', 'lastname', '@mailinator.com', z)
 
 And, here's what all that means:
 * where *pissant* (in single quotes) can be any first name 
@@ -22,10 +22,10 @@ And, here's what all that means:
 * and *z* is the number of such name / email combos you want generated
 
 Thus:
-fake.heartwalk("pissant","face", "@mailinator", 25)
+fake.email("pissant","face", "@mailinator", 25)
 
 Yields:
-> fake.heartwalk("pissant","face", "@mailinator", 25)
+> fake.email("pissant","face", "@mailinator", 25)
 [1] "pissant.face1"
 [1] "pissantface1@mailinator"
 [1] "pissant.face2"
